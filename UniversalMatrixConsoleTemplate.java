@@ -1,3 +1,26 @@
+File → Project Structure
+Слева Project
+В поле SDK выбери:
+если есть Java 21 — выбери её
+если нет — нажми Download JDK
+Выбери:
+Version: 21
+Vendor: Eclipse Temurin или Oracle
+Нажми Download
+Потом зайди в Modules → demo → Dependencies
+В Module SDK поставь Project SDK / JDK 21
+Apply → OK
+Перезапусти билд / Run
+
+
+
+
+
+
+
+
+
+
 package com.example.demo;
 
 import java.io.BufferedReader;
